@@ -43,3 +43,20 @@ areas.reverse()
 
 # Print out areas
 print(areas)
+
+############
+############ Packages
+############ 
+
+# A package is a directory of python scritps.
+# Each script is a 'module' that specifies functions, methods and other python types. 
+# There are thousands of packages available:
+# -Numpy, to work with arrays
+# -Matplotlib, for data visualization.
+# -Scikit-learn for machine learning.
+
+# To use python packages, we first need to install/import them.
+# pip3 install numpy 
+import numpy as np
+# numpy takes a list as input to create an array.
+np.array([[1, 2, 3]])
